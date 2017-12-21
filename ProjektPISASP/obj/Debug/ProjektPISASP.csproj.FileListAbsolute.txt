@@ -1,0 +1,9 @@
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll.config
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.pdb
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Debug\ProjektPISASP.csprojResolveAssemblyReference.cache
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Debug\ProjektPISASP.csproj.CoreCompileInputs.cache
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Debug\ProjektPISASP.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Debug\ProjektPISASP.pdb

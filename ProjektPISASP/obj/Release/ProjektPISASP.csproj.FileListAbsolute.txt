@@ -1,0 +1,10 @@
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll.config
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.pdb
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Release\ProjektPISASP.csproj.CoreCompileInputs.cache
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Release\ProjektPISASP.dll
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\obj\Release\ProjektPISASP.pdb
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll.CodeAnalysisLog.xml
+C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll.lastcodeanalysissucceeded

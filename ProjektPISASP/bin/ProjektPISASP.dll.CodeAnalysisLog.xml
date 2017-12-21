@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP\bin\ProjektPISASP.dll">
+   <Modules>
+    <Module Name="projektpisasp.dll">
+     <Namespaces>
+      <Namespace Name="ProjektPISASP">
+       <Types>
+        <Type Name="Register" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Page_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Sprawdź zapytania SQL pod kątem luk w zabezpieczeniach" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2017-12-11 13:52:02Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\grzeg\source\repos\ProjektPISASP\ProjektPISASP" File="Register.aspx.cs" Line="21">Ciąg zapytania przekazany do elementu 'SqlCommand.SqlCommand(string, SqlConnection)' w 'Register.Page_Load(object, EventArgs)' może zawierać następujące zmienne: 'this.usernameId.Text'. Jeśli dowolna z tych zmiennych może pochodzić z danych podawanych przez użytkownika, rozważ użycie procedury składowanej lub sparametryzowanego zapytania SQL zamiast tworzenia zapytania przez łączenie ciągów.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Sprawdź zapytania SQL pod kątem luk w zabezpieczeniach" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Sprawdź zapytania SQL pod kątem luk w zabezpieczeniach</Name>
+   <Description>Ciąg polecenia SQL utworzony na podstawie danych wejściowych użytkownika jest podatny na ataki polegające na wstrzyknięciu kodu SQL. Program Microsoft SQL Server i inne serwery baz danych obsługują procedury składowane i sparametryzowane zapytania SQL, które zmniejszają ryzyko ataków polegających na wstrzyknięciu kodu.</Description>
+   <Resolution Name="WithNonLiterals">Ciąg zapytania przekazany do elementu {0} w {1} może zawierać następujące zmienne: {2}. Jeśli dowolna z tych zmiennych może pochodzić z danych podawanych przez użytkownika, rozważ użycie procedury składowanej lub sparametryzowanego zapytania SQL zamiast tworzenia zapytania przez łączenie ciągów.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategoria</String>
+  <String Key="Certainty">Pewność</String>
+  <String Key="CollapseAll">Zwiń wszystko</String>
+  <String Key="CheckId">Identyfikator testu</String>
+  <String Key="Error">Błąd</String>
+  <String Key="Errors">błędy</String>
+  <String Key="ExpandAll">Rozwiń wszystko</String>
+  <String Key="Help">Pomoc</String>
+  <String Key="Line">Wiersz</String>
+  <String Key="Messages">komunikaty</String>
+  <String Key="LocationNotStoredInPdb">[Lokalizacja nie jest przechowywana w pliku PDB]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Rozwiązanie</String>
+  <String Key="Rule">Reguła</String>
+  <String Key="RuleFile">Plik reguł</String>
+  <String Key="RuleDescription">Opis reguły</String>
+  <String Key="Source">Źródło</String>
+  <String Key="Status">Stan</String>
+  <String Key="Target">Element docelowy</String>
+  <String Key="Warning">Ostrzeżenie</String>
+  <String Key="Warnings">ostrzeżenia</String>
+  <String Key="ReportTitle">Raport z analizy kodu</String>
+ </Localized>
+</FxCopReport>
